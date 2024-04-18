@@ -10,4 +10,13 @@ body {
 
 }
 
+form {
+    max-width: 600px;
+    margin: 1.78rem auto;
 
+    .botoes {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: space-around;
+    }
+}

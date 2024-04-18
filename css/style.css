@@ -1,0 +1,13 @@
+body {
+    padding: 1rem;
+}
+
+#lista-de-tarefas {
+    /* mobile first */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.2rem;
+
+}
+
+

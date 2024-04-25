@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/cadastrar.js" defer></script>
     <title>Cadastro</title>
 </head>
 <body>
@@ -18,12 +19,12 @@
 
         <div class="nes-field">
             <label for="titulo">Título</label>
-            <textarea type="titulo" class="nes-textarea"></textarea>
+            <textarea type="titulo" id="titulo" class="nes-textarea"></textarea>
         </div>
 
         <div class="nes-field">
             <label for="descricao">Descrição</label>
-            <textarea type="descricao" class="nes-textarea"></textarea>
+            <textarea type="descricao" id="descricao" class="nes-textarea"></textarea>
         </div>
 
         <div class="nes-field">
@@ -33,7 +34,7 @@
 
         <div class="botoes">
             <a href="/index.html" class="nes-btn is-error">Cancelar</a>
-            <button type="submit" class="nes-btn is-primary">Salvar</button>
+            <button id="botao-cadastrar" type="submit" class="nes-btn is-primary">Salvar</button>
         </div>
     </form>
 </body>
